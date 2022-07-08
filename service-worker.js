@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/LaissezFaire-DosSantos-React5/precache-manifest.1c468c8ccbd6429ed99a24c87896b5f0.js"
+  "/-LaissezFaire-DosSantos-React5/precache-manifest.f04fd099a2f1abd20354f5fcc378a14f.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/LaissezFaire-DosSantos-React5/index.html", {
+workbox.routing.registerNavigationRoute("/-LaissezFaire-DosSantos-React5/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
